@@ -1,0 +1,673 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="x-apple-disable-message-reformatting">
+<!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->
+<meta name="viewport" content="width=content-width, initial-scale=1.0">
+<title>Email</title>
+
+<style type="text/css">
+@font-face {
+	font-family: 'ABCDiatype-Reg';
+	src:  url('https://email-assets.goat.com/GOAT/Evergreen/Fonts/ABCDiatype-Regular.woff') format('woff2'),
+				url('https://email-assets.goat.com/GOAT/Evergreen/Fonts/ABCDiatype-Regular.woff2') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ABCDiatypeMono-Reg';
+	src:  url('https://email-assets.goat.com/GOAT/Evergreen/Fonts/ABCDiatypeMono-Regular-Web.woff2') format('woff2'),
+				url('https://email-assets.goat.com/GOAT/Evergreen/Fonts/ABCDiatypeMono-Regular-Web.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: inherit !important;
+	font-size: inherit !important;
+	font-family: inherit !important;
+	font-weight: inherit !important;
+	line-height: inherit !important;
+}
+p {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.address a {
+  color: #979797 !important;
+  text-decoration: none !important;
+}
+
+@media only screen and (max-device-width: 698px), only screen and (max-width: 698px) {
+  u + .body .gwfw {
+    width: 100% !important;
+    width: 100vw !important;
+  }
+  .body_copy {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .hide {
+    visibility: hidden !important;
+    display: none !important;
+    max-height: 0 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
+  .show {
+    visibility: visible !important;
+    display: inline-block !important;
+  }
+	.stack-right {
+		display: block !important;
+		width: 100% !important;
+		max-width: 480px !important;
+		height: auto !important;
+		float: left !important;
+		padding: 0px !important;
+		text-align: right !important;
+	}
+
+	/** MOBILE HEIGHT SPACERS **/
+	.sp_h_0 { padding: 0px 0px !important;}
+	.sp_h_4 { padding: 2px 0px !important; }
+	.sp_h_6 { padding: 3px 0px !important; }
+	.sp_h_10 { padding: 5px 0px !important; }
+	.sp_h_15 { padding: 7.5px 0px !important; }
+	.sp_h_18 { padding: 9px 0px !important; }
+	.sp_h_20 { padding: 10px 0px !important; }
+	.sp_h_24 { padding: 12px 0px !important; }
+	.sp_h_25 { padding: 12.5px 0px !important; }
+	.sp_h_30 { padding: 15px 0px !important; }
+	.sp_h_32 { padding: 16px 0px !important; }
+	.sp_h_35 { padding: 17.5px 0px !important; }
+	.sp_h_40 { padding: 20px 0px !important; }
+	.sp_h_45 { padding: 22.5px 0px !important; }
+	.sp_h_50 { padding: 25px 0px !important; }
+	.sp_h_55 { padding: 27.5px 0px !important; }
+	.sp_h_60 { padding: 30px 0px !important; }
+	.sp_h_65 { padding: 32.5px 0px !important; }
+	.sp_h_70 { padding: 35px 0px !important; }
+	.sp_h_75 { padding: 37.5px 0px !important; }
+	.sp_h_80 { padding: 40px 0px !important; }
+	.sp_h_85 { padding: 42.5px 0px !important; }
+	.sp_h_90 { padding: 45px 0px !important; }
+	.sp_h_95 {padding: 47.5px 0px !important; }
+	.sp_h_100 { padding: 50px 0px !important; }
+
+	.mobile_pad { padding: 0px 20px !important; }
+	.mobile_pad2 { padding: 0px 18px !important; }
+	.mobile_pad3 { padding: 0px 20px 0px 16px !important; }
+
+	.logo { max-width: 61px !important; }
+	.header_img { width: 95px !important; }
+
+	.small_copy {
+		font-size: 11px !important;
+		line-height: 14px !important;
+	}
+  .body_copy {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+		color: #979797 !important;
+  }
+	.headline {
+		font-size: 16px !important;
+		line-height: 16px !important;
+		padding: 15px 20px 30px 20px !important;
+	}
+
+	/** FOOTER V1 STYLES**/
+	.foot_links_outer_pad, .foot_text_outer_pad { padding: 0px 20px !important; }
+	.foot_action_TD { font-size: 14px !important; }
+	.foot_link_TD {
+		font-size: 11px !important;
+		padding: 0px 8px 0px 0px !important;
+	}
+	.foot_action_TD:last-child, .foot_link_TD:last-child { padding: 0px !important; }
+	.foot_txt_TD {
+		font-size: 11px !important;
+		line-height: 14px !important;
+		color: #979797 !important;
+	}
+	.foot_txt_TD a { font-size: 11px !important; }
+
+	/** FOOTER V2 STYLES**/
+	.foot_links_outer_pad, .foot_text_outer_pad {
+		padding: 0px 20px !important;
+	}
+	.foot_small_copy {
+		font-size: 11px !important;
+		line-height: 14px !important;
+	}
+	.foot_address {
+		font-size: 10px !important;
+		line-height: 13px !important;
+	}
+	.foot_space { width: 13px !important; }
+
+	.bg_white, a, .small_copy, .small_copy a, p, .foot_small_copy, .foot_small_copy span { color: #979797 !important; }
+	.darkfix img { opacity: .35 !important; }
+}
+</style>
+</head>
+
+<body class="body" bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="height:auto; padding: 0; margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;">
+
+<span style="display: none;">
+<!-- LIQUID FOR UPDATING -->
+
+
+<!-- HERO IMAGES -->
+
+
+
+<!-- SECTION IMAGES -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- CTA IMAGES -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- TEXT IMAGES -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- LINKS -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- DO NOT UPDATE THE FOLLOWING LIQUID -->
+<!-- STANDARD URLS -->
+
+
+
+
+
+</span>
+
+<div style="display: none; font-size: 0px; color: #000000; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+  An exclusive shopping experience featuring iconic styles from the past, present and future
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+  &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;<wbr>
+</wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></wbr></div>
+
+<table class="bg_white" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+	<tr>
+		<!-- OUTER CONTAINER TD -->
+		<td class="bg_white" width="100%" align="center" valign="top" bgcolor="#FFFFFF">
+			<!-- MAIN TABLE -->
+			<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="padding: 0; max-width: 800px;">
+				<tr>
+					<!-- MAIN CONTAINER -->
+					<td class="bg_white" width="100%" align="center" style="background: url(https://email-assets.goat.com/GOAT/2022/2022-07/DIVISION-STREET/071822_D_Header_White.png) #FFFFFF; background-repeat: repeat-y; background-size:cover; background-position:center;">
+
+						<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+							<!-- (ALL NEW ELEMENTS SHOULD BE IN ITS OWN TR CONTAINER) -->
+
+							<!-- BEGIN HEADER / LOGO -->
+							
+							
+							<!-- BEGIN LOGO -->
+							<tr>
+								<td valign="top">
+
+									<table width="100%" cellpadding="0" cellspacing="0" border="0">
+										<!-- SPACER --><tr><td class="sp_h_18" width="100%" style="padding: 12.5px 0px"></td></tr>
+										<tr>
+											<td class="mobile_pad" style="padding: 0px 30px;" valign="top">
+												<table width="100%" cellpadding="0" cellspacing="0" border="0">
+													<tr>
+														<td align="left" style="text-align: left;" valign="middle">
+															<a href="https://goat.app.link/?$urlString=airgoat://home&$desktop_url=https://goat.com/&utm_content=logo?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img class="logo" style="display: block; max-width: 65px;" src="https://email-assets.goat.com/GOAT/Evergreen/Logos/GOAT-LOGO-BLK-NEW_V2.png" alt="GOAT" border="0"></a>
+														</td>
+														<td class="small_copy" align="right" style="font-family: 'ABCDiatype-Reg', Helvetica, Arial; font-size: 12px; line-height: 14px; color: #000000; text-align: right;" valign="middle">
+															<a style="text-decoration: none; color: #000000;" href="https://goat.app.link/?$urlString=airgoat://home&$desktop_url=https://goat.com/&utm_content=logo?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off">Shop 315,863 Items</a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<!-- SPACER --><tr><td class="sp_h_20" width="100%" style="padding: 12.5px 0px"></td></tr>
+									</table>
+
+								</td>
+						  </tr>
+							<!-- END LOGO -->
+
+							<!-- BEGIN DESKTOP HERO -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=hero?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_HERO_V4.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP HERO -->
+							<!-- BEGIN MOBILE HERO -->
+							<tr>
+								<td class="show" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=hero?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_HERO_V5.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE HERO -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 20px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP TEXT 1 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=hero?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_TEXT_01_V2.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP TEXT 1 -->
+							<!-- BEGIN MOBILE TEXT 1 -->
+							<tr>
+								<td class="show mobile_pad" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=hero?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_TEXT_01_V2.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE TEXT 1 -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 30px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP SECTION 1 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-talent&$fallback_url=https://goat.com/collections/spring-exhibit-23-talent&urlString=airgoat://collections/spring-exhibit-23-talent&$desktop_url=https://goat.com/collections/spring-exhibit-23-talent&utm_content=cta_1?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_Assets_01_V4.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP SECTION 1 -->
+							<!-- BEGIN MOBILE SECTION 1 -->
+							<tr>
+								<td class="show" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-talent&$fallback_url=https://goat.com/collections/spring-exhibit-23-talent&urlString=airgoat://collections/spring-exhibit-23-talent&$desktop_url=https://goat.com/collections/spring-exhibit-23-talent&utm_content=cta_1?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_Assets_01_V4.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE SECTION 1 -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 30px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP TEXT 2 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-talent&$fallback_url=https://goat.com/collections/spring-exhibit-23-talent&urlString=airgoat://collections/spring-exhibit-23-talent&$desktop_url=https://goat.com/collections/spring-exhibit-23-talent&utm_content=cta_1?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_TEXT_02.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP TEXT 2 -->
+							<!-- BEGIN MOBILE TEXT 2 -->
+							<tr>
+								<td class="show mobile_pad" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-talent&$fallback_url=https://goat.com/collections/spring-exhibit-23-talent&urlString=airgoat://collections/spring-exhibit-23-talent&$desktop_url=https://goat.com/collections/spring-exhibit-23-talent&utm_content=cta_1?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_TEXT_02.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE TEXT 2 -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 30px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP SECTION 2 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-talent&$fallback_url=https://goat.com/collections/spring-exhibit-23-talent&urlString=airgoat://collections/spring-exhibit-23-talent&$desktop_url=https://goat.com/collections/spring-exhibit-23-talent&utm_content=cta_1?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_Assets_02.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP SECTION 2 -->
+							<!-- BEGIN MOBILE SECTION 2 -->
+							<tr>
+								<td class="show" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-talent&$fallback_url=https://goat.com/collections/spring-exhibit-23-talent&urlString=airgoat://collections/spring-exhibit-23-talent&$desktop_url=https://goat.com/collections/spring-exhibit-23-talent&utm_content=cta_1?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_Assets_02.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE SECTION 2 -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 30px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP CTA 1 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-talent&$fallback_url=https://goat.com/collections/spring-exhibit-23-talent&urlString=airgoat://collections/spring-exhibit-23-talent&$desktop_url=https://goat.com/collections/spring-exhibit-23-talent&utm_content=cta_1?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%; max-width: 510px; margin: 0px auto;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_CTA_01_V2.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP CTA 1 -->
+							<!-- BEGIN MOBILE CTA 1 -->
+							<tr>
+								<td class="show mobile_pad" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-talent&$fallback_url=https://goat.com/collections/spring-exhibit-23-talent&urlString=airgoat://collections/spring-exhibit-23-talent&$desktop_url=https://goat.com/collections/spring-exhibit-23-talent&utm_content=cta_1?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_CTA_01_V2.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE CTA 1 -->
+
+							<!-- SPACER --><tr><td class="sp_h_40" width="100%" style="padding: 30px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP SECTION 3 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=cta_2?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_Assets_03.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP SECTION 3 -->
+							<!-- BEGIN MOBILE SECTION 3 -->
+							<tr>
+								<td class="show" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=cta_2?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_Assets_03.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE SECTION 3 -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 30px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP TEXT 3 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=cta_2?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_TEXT_03.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP TEXT 3 -->
+							<!-- BEGIN MOBILE TEXT 3 -->
+							<tr>
+								<td class="show mobile_pad" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=cta_2?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_TEXT_03.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE TEXT 3 -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 30px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP SECTION 4 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=cta_2?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_Assets_04.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP SECTION 4 -->
+							<!-- BEGIN MOBILE SECTION 4 -->
+							<tr>
+								<td class="show" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=cta_2?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_Assets_04.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE SECTION 4 -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 30px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP CTA 2 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=cta_2?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%; max-width: 510px; margin: 0px auto;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_CTA_02.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP CTA 2 -->
+							<!-- BEGIN MOBILE CTA 2 -->
+							<tr>
+								<td class="show mobile_pad" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/vintage-2023&$fallback_url=https://goat.com/collections/vintage-2023&urlString=airgoat://collections/vintage-2023&$desktop_url=https://goat.com/collections/vintage-2023&utm_content=cta_2?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_CTA_02.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE CTA 2 -->
+
+							<!-- SPACER --><tr><td class="sp_h_40" width="100%" style="padding: 15px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP SECTION 5 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-record-28&$fallback_url=https://goat.com/collections/spring-exhibit-23-record-28&urlString=airgoat://collections/spring-exhibit-23-record-28&$desktop_url=https://goat.com/collections/spring-exhibit-23-record-28&utm_content=cta_3?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_Assets_05_V2.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP SECTION 5 -->
+							<!-- BEGIN MOBILE SECTION 5 -->
+							<tr>
+								<td class="show" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-record-28&$fallback_url=https://goat.com/collections/spring-exhibit-23-record-28&urlString=airgoat://collections/spring-exhibit-23-record-28&$desktop_url=https://goat.com/collections/spring-exhibit-23-record-28&utm_content=cta_3?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_Assets_05_V2.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE SECTION 5 -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 15px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP TEXT 4 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-record-28&$fallback_url=https://goat.com/collections/spring-exhibit-23-record-28&urlString=airgoat://collections/spring-exhibit-23-record-28&$desktop_url=https://goat.com/collections/spring-exhibit-23-record-28&utm_content=cta_3?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_TEXT_04.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP TEXT 4 -->
+							<!-- BEGIN MOBILE TEXT 4 -->
+							<tr>
+								<td class="show mobile_pad" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-record-28&$fallback_url=https://goat.com/collections/spring-exhibit-23-record-28&urlString=airgoat://collections/spring-exhibit-23-record-28&$desktop_url=https://goat.com/collections/spring-exhibit-23-record-28&utm_content=cta_3?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_TEXT_04.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE TEXT 4 -->
+
+							<!-- SPACER --><tr><td class="sp_h_15" width="100%" style="padding: 15px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP SECTION 6 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-record-28&$fallback_url=https://goat.com/collections/spring-exhibit-23-record-28&urlString=airgoat://collections/spring-exhibit-23-record-28&$desktop_url=https://goat.com/collections/spring-exhibit-23-record-28&utm_content=cta_3?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_Assets_06.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP SECTION 6 -->
+							<!-- BEGIN MOBILE SECTION 6 -->
+							<tr>
+								<td class="show" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-record-28&$fallback_url=https://goat.com/collections/spring-exhibit-23-record-28&urlString=airgoat://collections/spring-exhibit-23-record-28&$desktop_url=https://goat.com/collections/spring-exhibit-23-record-28&utm_content=cta_3?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_Assets_06.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE SECTION 6 -->
+
+							<!-- SPACER --><tr><td class="sp_h_40" width="100%" style="padding: 22.5px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP CTA 3 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-record-28&$fallback_url=https://goat.com/collections/spring-exhibit-23-record-28&urlString=airgoat://collections/spring-exhibit-23-record-28&$desktop_url=https://goat.com/collections/spring-exhibit-23-record-28&utm_content=cta_3?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%; max-width: 510px; margin: 0px auto;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_CTA_03_V2.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP CTA 3 -->
+							<!-- BEGIN MOBILE CTA 3 -->
+							<tr>
+								<td class="show mobile_pad" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=collections/spring-exhibit-23-record-28&$fallback_url=https://goat.com/collections/spring-exhibit-23-record-28&urlString=airgoat://collections/spring-exhibit-23-record-28&$desktop_url=https://goat.com/collections/spring-exhibit-23-record-28&utm_content=cta_3?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%; " src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_CTA_03_V2.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE CTA 3 -->
+
+							<!-- SPACER --><tr><td class="sp_h_40" width="100%" style="padding: 22.5px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP SECTION 7 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$fallback_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&urlString=airgoat://editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$desktop_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&utm_content=cta_4?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_Assets_07_V2.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP SECTION 7 -->
+							<!-- BEGIN MOBILE SECTION 7 -->
+							<tr>
+								<td class="show" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$fallback_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&urlString=airgoat://editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$desktop_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&utm_content=cta_4?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_Assets_07_V2.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE SECTION 7 -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 22.5px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP TEXT 5 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$fallback_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&urlString=airgoat://editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$desktop_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&utm_content=cta_4?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_TEXT_05_V2.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP TEXT 5 -->
+							<!-- BEGIN MOBILE TEXT 5 -->
+							<tr>
+								<td class="show mobile_pad" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$fallback_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&urlString=airgoat://editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$desktop_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&utm_content=cta_4?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_TEXT_05_V2.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE TEXT 5 -->
+
+							<!-- SPACER --><tr><td class="sp_h_30" width="100%" style="padding: 22.5px 0px"></td></tr>
+
+							<!-- BEGIN DESKTOP CTA 4 -->
+							<tr>
+								<td class="hide">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$fallback_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&urlString=airgoat://editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$desktop_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&utm_content=cta_4?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%; max-width: 510px; margin: 0px auto;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/D_CTA_04.png" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END DESKTOP CTA 4 -->
+							<!-- BEGIN MOBILE CTA 4 -->
+							<tr>
+								<td class="show mobile_pad" style="display:none; visibility:hidden;">
+									<a href="https://goat.app.link/?$uri_redirect_mode=0&$deeplink_path=editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$fallback_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&urlString=airgoat://editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&$desktop_url=https://goat.com/editorial/goat-spring-vintage-exhibit-david-casavant-jerks-endyma-dot-comme&utm_content=cta_4?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9" clicktracking="off"><img style="display: block; width: 100%;" src="https://email-assets.goat.com/GOAT/2023/2023-04/SPRING-EXHIBIT/M_CTA_04.jpg" width="100%" alt="" border="0"></a>
+								</td>
+							</tr>
+							<!-- END MOBILE CTA 4 -->
+
+						  <!-- SPACER --> <tr><td class="sp_h_50" width="100%" style="padding: 50px 0px;"></td></tr>
+							<!-- BEGIN FOOTER -->
+<!-- SECTION SPACER --> <tr><td class="sp_h_28" width="100%" style="padding: 15px 0px;"></td></tr>
+<tr>
+<td class="foot_links_outer_pad" valign="top" style="padding: 0px 30px;">
+
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td width="66%" valign="top">
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td class="foot_small_copy" style="font-family: 'ABCDiatype-Reg', Helvetica, Arial; font-size: 12px; line-height: 16px; color: #000000;">
+							<p><a style="text-decoration: none;" clicktracking="off" href="https://goat.app.link/?$deeplink_path=&urlString=airgoat://home&$desktop_url=https://goat.com/app&utm_content=install?channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9"><span style="color: #000000;">DOWNLOAD APP</span></a></p>
+						</td>
+						<td class="foot_space" width="12%"></td>
+						<td class="foot_small_copy" style="font-family: 'ABCDiatype-Reg', Helvetica, Arial; font-size: 12px; line-height: 16px; color: #000000;">
+							<p><a style="text-decoration: none;" clicktracking="off" href="https://aliasorg.app.link/?%24desktop_deepview=alias_deepview_sneakers_tagline&urlString=alias%3A%2F%2Fhome%2Fhome&utm_content=sell_with_us&channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9"><span style="color: #000000;">SELL WITH US</span></a></p>
+						</td>
+					</tr>
+				</table>
+			</td>
+
+			<td width="34%" valign="top" style="text-align: right;">
+				<table align="right" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<th class="stack-right foot_small_copy" style="font-family: 'ABCDiatype-Reg', Helvetica, Arial; font-weight: normal; font-size: 12px; line-height: 16px; color: #979797; text-align: left;">
+							<a style="text-decoration: underline; color: #979797;" href="https://links.e.goat.com/ls/click?upn=r41csR-2F-2F1XOFN8SwO6WpU4PP3YPwSpB61-2FqeGa8e1wQFpXokMeO-2Fz9lXx4HD37323yCL5z7FSEAZTeLhVIotR2G2Sai-2FgSdcQ5MJEOKbmHISrpgk-2F-2FMl2tbo3ARBi1iGIzumuNY0A0kHlCEmF-2FwbpgAMP9CZoCEV-2B5zbzoFRp2mWFCrD9jwb8-2FsY8q4-2Bu8CqX-2BFTkXesYHSSDNhNkjhLPLX7B7TQpY-2Fs1of84n-2BS1RFoWTqZiEIarFwXOCdsXMJrZy9X-2FBnGEol-2FwwIl1ONd0sI1x-2B4oh-2Bk9PjyQO8mQmrPyyFQL37uo2iH3O827SgKkn8S4I5eTpjCwcXABJQum3fhwsTZJbeoTyhXC54w1iiRnRu6WQ7gDaRRaPNAlz64BLTHl0L1yttdtF9GuRm-2Bdyyx2csk9gLjPAX-2BRRr-2F6AHh-2FlxyqHKW-2FrELyVoobqxG8zC3zw1UIeLrgvUQ2w-2BJ3oKBxmoYm2SzhzowkwfF7pnrGa8A2WJBZ-2BJ3C-2FrRlNmC4GG9leZTCJZgdofi7uYtUtCl9k3aIUvsR-2BG4aaMkhvMDk218PFFC7HS9JcK2MJ1jTN2JScdUy-2FXZBNB6RljKEVfQ1x-2BZuL2F5wgGkvMuGIeM5AQOC3LwaEKIYYhw6WvVTHZC5poB6BxmWB1GesqvXxLTKHSgjpl0iNbgNhe2EKAJ7PzyJ17fc-2BHjpcpLw3C6EGwzSjwb5uU7hjQRp93qX3uhBdCZrTUuScZ7zP-2BOm2Zbv4ZtKLV2D08RNbhmpxdL46-2BQyc5mISXYR5-2FfYr1VfpMvqs5vTjSycJsqjF-2BFTEa-2Bagm7qfHYFuiByYh4Iyhucfc4Aj8SLcZVW9ZbcAqHyN4dXPGkhaHUeONaHpF2lpk0lG79jWZ31-2FYGwm8vVtVdKElJzDHjlHk-2FgfDC-2Ffe3740bmp64pzvbDFSTn65UD85hxWgsuR4fPq2cVEd4bl-2FrJxPRiltAMi39Zs5Hfugkplr2rxiZsP7s-2Fe1Ee9NLO1CggTT1gpCpXDTyxzxUZSh-2FX4Qt7D9F0InHk7-2F-2Fj3BlQCCspKsqGO5CveFb9bC-2FHeF-2FA41Corw-2FgJLWILdLbAEArZ2Ko-2BXFDv1OSPeDRloqJP-2B2hcq6DSDZPYhcEhoNl6D41ah8TV5nTn-2FLOy7fnchQMc1q7C4k6U2DqYgLpiL53FC6VsUkZiwbqkkDFl6wQa3xfRtX3p60VRh9zxuXXmD3HXJ3D5IYaqkJa0mZDhyLP1ugwY7LM-2BLLqpap4UKzRwo8-3DTZ48_A0fDIvWy1k0rod-2Fb0J4F-2Bg9HBtZf4wbfCzb7UnbhLtSSBV9WTbQhCNMAAx-2Bidm-2B6xy-2B5LNvL-2FtbQrKZweTMmHPAyCT4IkOXQaPn2EBN-2BRAViX7yLKdoFB2N9rGbvxTKLbUJb9rRlUqdGeJ-2FZ77o7Y7WyuqJDfZOIjhDkgJTSCzjyd1wu9z2psbcJR1I5z-2FamPA1SS6lEqpGNIvvZYPrRrraLU-2FRFSOA2cQLDBaXSmOt3GXZSYbYpsqT-2B3hJxDo9ps0BDlC11mRvQU6o5xw20EbqKb-2F7p-2BzePyw9dPQlmgEAmY6EV0yg-2BElZtRbj6rYkd0Ebd8soSPTqnmVcKvKhCyqXoCIZy0bv5-2FZc-2FuQRgxWASAUcixNqs8qYD1aIRedhkLsAwYF-2BOJP0FVvAGVPwtx357Py7WCTtG0kBY3X-2FcmE9e4OZNY4ldJbFCtIyAL6YjtQB8-2FbatNXF2acFUYfO568UhDN13W-2BCrnI7hAZGaVQT7fakSTf9lqzyRHLUFYVfDhsyCFfcc-2BZ3ephtEGOTjMCg-2Bn-2FPSJaaW71XGOzhwl6qrzVqHd7RFynBTz7q52QQNXO94dR6f3xRiXN7oSoOq3l9neqYJPOmqXLS52ClSQ2Z2yoZyLU0dztvxV3lcAh5pN98P12Fdqn1Utuko1fAnFJK8rkakv4MXBGgVHXK8rkpwdEYc3hGlOT06xyRhdYGl1WaW7CEwgFuCjnNx0-2Fqr8Q-3D-3D">Unsubscribe</a>
+						</th>
+						<th class="hide" width="15"></th>
+						<th class="stack-right foot_small_copy" style="font-family: 'ABCDiatype-Reg', Helvetica, Arial; font-weight: normal;  font-size: 12px; line-height: 16px; color: #979797; text-align: left;">
+							<a style="text-decoration: underline; color: #979797;" clicktracking="off" href="https://goat.app.link/?%24desktop_url=https%3A%2F%2Fgoat.com%2Fterms&utm_content=terms&channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9">Terms</a>
+						</th>
+						<th class="hide" width="15"></th>
+						<th class="stack-right foot_small_copy" style="font-family: 'ABCDiatype-Reg', Helvetica, Arial; font-weight: normal; font-size: 12px; line-height: 16px; color: #979797; text-align: left;">
+							<a style="text-decoration: underline; color: #979797;" clicktracking="off" href="https://goat.app.link/?%24desktop_url=https%3A%2F%2Fgoat.zendesk.com%2Fhc%2Fen-us%2Frequests%2Fnew&utm_content=support&channel=Email&campaign=Email&crm_message_id=b94050ae-94f8-437d-b3ac-dee4e8b53a6a&crm_variant_name=variant&crm_variant_id=fff13b9e-433e-47a3-b254-29635fee753d&crm_step_id=0f2eb040-9ce5-49c3-984d-c574aa3efc0a&crm_canvas_name=2023-04-24_SPRING_EXHIBIT_LAUNCH&crm_canvas_id=c5d418a7-b6f4-4638-bef6-bea584fda420&utm_campaign=Email&utm_source=Email&utm_medium=Ad-Hoc&utm_term=10074729&crm_braze_id=5e0ab84cd4f8f93ca1b172c9">Contact Support</a>
+						</th>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+</td>
+</tr>
+<!-- SECTION SPACER --> <tr><td class="sp_h_10" width="100%" style="padding: 26px 0px;"></td></tr>
+<tr>
+<td class="foot_text_outer_pad foot_address" style="font-family: 'ABCDiatype-Reg', Helvetica, Arial; font-size: 11px; line-height: 14px; text-align: left; color: #979797; padding: 0px 30px;" align="left">
+	<a style="text-decoration: none; color: #979797;" clicktracking="off" href="">P.O. Box 91258,<br style="display:none; visibility:hidden;" class="show"> Los Angeles, CA 90009-1258</a> <br style="display:none; visibility:hidden;" class="show"> © 1661, Inc. All&nbsp;Rights&nbsp;Reserved
+</td>
+</tr>
+<!-- SECTION SPACER --> <tr><td class="sp_h_18" width="100%" style="padding: 13px 0px;"></td></tr>
+<!-- END FOOTER -->
+						</table>
+
+					</td>
+					<!-- END MAIN CONTAINER -->
+				</tr>
+			</table>
+			<!-- END MAIN TABLE -->
+		</td>
+	</tr>
+	<!-- END OUTER CONTAINER TD -->
+</table>
+
+<img src="https://links.e.goat.com/wf/open?upn=xrKFsieyB1OkxBbl2v6O4JLhgqTz5yxOvFv8oTP3JnqrV-2FH5zvpKG0bgqI8hh3Yjo-2B7v-2BNapLQxpAmXavXonYUH8s34-2FpSPDiQA7TUbK1oKqGVA-2FXOUe-2BjPjfdBcBkV5Usk04dj77pEyZzl-2FlEnizyPh27g4rLRhL3-2BNTrGDaBTBhL9jM7MOn9zRiMUfYEiHMKf3-2F0YH1hMsjkabJSC637TsNnaFGdiLruvOi2WmYdkgGD7OM1JT-2F8PQmV-2Fix7Yf0kt-2BZ0T2IhakdDHiBLGpX4FIZauQbi7sL9ptUGe9R-2BIPUfIqRgo36-2Bwmg0h95HkZbIi1U-2B2eXD1mRFtDJ6nlBMXy5Q9JoPDBOIoTn1ojPygvm63IXdPXSMlvuBfLFTTzWV7MOQSBAJqGrbDEe-2BzatF1RVO-2BYXnU7DbV18uNTx5sGOPETteTnihBzB6li7TQNXg6TKHmzR3WM9hNmSf3wFESB1MpdQVUT2XrNzZQqmXNhalvGX82rTHqFDoIGBsFhM1cbc-2F5RLJh2HWWOfHolbYBEMS9y5HSrDNEqnMrSaJ78EWaboOz7NQs1tKObxB-2FJs3ZDCZ5reQTtnc60g-2BAL2snrtMblBqPPWjjUm9g9bShP-2B9AolYyaJQAMToXw8OUz-2F1TErTe6mAGf7hsny6KP29odQ213p-2BbjIvK9EjaM4iHOGqscilAUG2lOZY1QPA8LIAG4uJw6a-2B0acR0Iaz-2F1XKypCR6SqviMvO-2FXw7HXEio-3D" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/></body>
+</html>
